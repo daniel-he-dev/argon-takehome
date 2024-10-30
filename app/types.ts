@@ -1,0 +1,32 @@
+export interface Study {
+  "NCT Number": string;
+  "Study Title": string;
+  "Study URL": string;
+  Acronym: string;
+  "Study Status": string;
+  "Brief Summary": string;
+  "Study Results": string;
+  Conditions: string;
+  Interventions: string;
+  "Primary Outcome Measures": string;
+  "Secondary Outcome Measures": string;
+  "Other Outcome Measures": string;
+  Sponsor: string;
+  Collaborators: string;
+  Sex: string;
+  Age: string;
+  Phases: string;
+  Enrollment: string;
+  "Funder Type": string;
+  "Study Type": string;
+  "Study Design": string;
+  "Other IDs": string;
+  "Start Date": string;
+  "Primary Completion Date": string;
+  "Completion Date": string;
+  "First Posted": string;
+  "Results First Posted": string;
+  "Last Update Posted": string;
+  Locations: string;
+  "Study Documents": string;
+}
